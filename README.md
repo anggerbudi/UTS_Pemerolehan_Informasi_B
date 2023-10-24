@@ -7,7 +7,7 @@ Tugas ini dibuat sebagai pemenuhan Ujian Tengah Semester mata kuliah Pemerolehan
 
 - [Martinus Angger](https://github.com/anggerbudi)
 - [Antonius Miquel](https://github.com/REDummy)
-- [Antonius Yoga](https://github.com/temp)
+- [Antonius Yoga](https://github.com/chrissra)
 
 
 
