@@ -59,6 +59,7 @@ class Program:
         for idx, doc in enumerate(glob.glob(self.file_folder), start=0):
             with open(doc, 'r') as file:
                 text = re.sub(r'\d', '', self.remove_special_char(file.read()))
+                print(text) if file == 'dok_soal/sains1.txt' else None
                 words = [self.stemmer.stem(word.lower()) for word in word_tokenize(text)
                          if len(word) >= 1 and word.lower() not in self.stop_words]
                 word_freq_in_doc = self.find_freq_and_unique_word(words)
@@ -116,10 +117,22 @@ class Program:
 
     def output(self, vec_d, vec_q):
         d_cosines = [self.cosine_sim(vec_q, d) for d in vec_d]
-        # for i, cosine in enumerate(d_cosines, start=1):
-        #     if cosine is not None:
-        #         print(files_with_index[i] + ' ' + str(cosine))
         return d_cosines
+
+    def output_files(self, vec_d, vec_q, files_with_index):
+        d_cosines = [self.cosine_sim(vec_q, d) for d in vec_d]
+        for i, cosine in enumerate(d_cosines, start=1):
+             if cosine is not None:
+                 print(files_with_index[i] + ' ' + str(cosine))
+        return d_cosines
+
+    def fileList(self, d_cosines, files_with_index, total_files):
+        out = np.array(d_cosines).argsort()[-total_files:][::-1]
+        print(out)
+
+        for a in out:
+            print(files_with_index[a + 1])
+
 
     def vector_relevance(self, d_cosines, files_with_index):
         relevance_doc = ['sains2.txt', 'sains3.txt', 'sains6.txt', 'sains20.txt', 'sains54.txt', 'sains72.txt',
@@ -172,16 +185,35 @@ class Program:
         non_relevant_document_vectors = non_relevant_cosine_values  # Replace with actual vectors
 
         # Calculate the new query vector using Rocchio formula
-        new_query_vector = alpha * original_query_vector + beta * np.mean(relevant_document_vectors, axis=0) - gamma * np.mean(non_relevant_document_vectors, axis=0)
+        new_query_vector = alpha * original_query_vector + beta/len(relevance_doc) * np.mean(relevant_document_vectors, axis=0) - gamma/len(relevance_doc) * np.mean(non_relevant_document_vectors, axis=0)
 
         # Normalize the new query vector to have unit length
         new_query_vector /= np.linalg.norm(new_query_vector)
         print('asd',new_query_vector)
         return new_query_vector
-        # Now, you can use the new_query_vector to re-rank and retrieve documents in your collection
-        # Compute cosine similarity between the new_query_vector and documents to rank them
 
-        # Re-rank your documents based on cosine similarity with the new query vector
+    def hitung_rochio2(self,vecQ, d_cosines, files_with_index, alpha, beta, gamma):
+        num_docs = len(files_with_index)
+        relevant_docs = [
+            'sains2.txt', 'sains3.txt', 'sains6.txt', 'sains20.txt', 'sains54.txt', 'sains72.txt',
+            'sains85.txt', 'sains89.txt', 'sains98.txt', 'sains104.txt', 'sains105.txt', 'sains114.txt'
+        ]
 
-        # Evaluate the results using precision and recall
+        # Create a list to store document order
+        doc_order = list(files_with_index.values())
+
+        relevant_doc_indices = [doc_order.index(doc) for doc in relevant_docs]
+        non_relevant_doc_indices = [i for i in range(num_docs) if i not in relevant_doc_indices]
+
+        # Calculate the Rocchio feedback query
+        relevant_docs_similarity = np.mean([d_cosines[i] for i in relevant_doc_indices], axis=0)
+        non_relevant_docs_similarity = np.mean([d_cosines[i] for i in non_relevant_doc_indices], axis=0)
+
+        updated_query = alpha * vecQ + beta * relevant_docs_similarity - gamma * non_relevant_docs_similarity
+
+        return updated_query
+
+
+
+
 
