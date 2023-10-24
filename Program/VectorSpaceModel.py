@@ -41,7 +41,6 @@ class Program:
     def text_loader_and_words_collector(self):
         files_with_index = {}
         unique_words_all = set()
-
         for idx, doc in enumerate(glob.glob(self.file_folder), start=1):
             with open(doc, 'r') as file:
                 text = re.sub(r'\d', '', self.remove_special_char(file.read()))
@@ -50,8 +49,6 @@ class Program:
                 dict_global = self.find_freq_and_unique_word(words)
                 files_with_index[idx] = os.path.basename(doc)
                 unique_words_all.update(dict_global.keys())
-                print('ini dict global : ', dict_global)
-        print('ini unique words all : ', unique_words_all)
         return unique_words_all, files_with_index
 
     def process_data_and_update_linked_list(self, unique_words_all):
@@ -92,7 +89,6 @@ class Program:
     @staticmethod
     def vec_d_matrix(unique_words_all, files_with_index, linked_list_data):
         dict_words = list(unique_words_all)
-        print('ini dict words : ', dict_words)
         total_files = len(files_with_index)
         total_vocab = len(dict_words)
         vec_d = np.zeros((total_files, total_vocab))
