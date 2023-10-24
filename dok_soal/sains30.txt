@@ -1,0 +1,27 @@
+
+kompas.com- tim ilmuwan menciptakan robot terkecil yang mampu berjalan dan dikendalikan dari jarak jauh. saking kecilnya robot yang bentuknya menyerupai kepiting itu berukuran hanya setengah milimeter saja.
+lalu dengan ukuran sekecil itu apa fungsi dari robot kepiting tersebut?
+dikutip dari science alert jumat robot yang sangat kecil memiliki banyak kegunaan potensial mulai dari membantu prosedur bedah hingga memperbaiki mesin di ruang di mana kunci pas tak dapat dipasang.
+semakin kecil mereka semakin banyak skenario yang bisa mereka gunakan.
+meski begitu si robot kepiting ini belum benar-benar beroperasi dan melakukan perbaikan.
+baca juga ini dia robot hidup pertama yang diklaim bisa bereproduksi
+hanya saja peneliti menyebut bahwa teknologi pada robot kepiting terkecil di dunia ini benar-benar mengesankan dan dapat bermanfaat bagi ilmu pengetahuan.
+teknik yang para ilmuwan ini kembangkan nantinya juga bisa digunakan untuk mengembangkan robot kecil lainnya dengan bentuk yang berbeda.
+ teknologi kami memungkinkan berbagai modalitas gerak terkontrol dan dapat berjalan dengan kecepatan rata-rata setengah panjang tubuhnya per detik kata yonggang huang insinyur mesin dari northwestern university di illinois.
+teknologi yang menjadi dasar robot ini pun awalnya sudah dikembangkan delapan tahun lalu.
+bagian-bagian robot kepiting terkecil ini dipasang pada substrat karet yang diregangkan dan ketika bahannya dilonggarkan bentuk perangkat akan muncul.
+baca juga robot ini diluncurkan untuk selidiki kehidupan misterius laut dalam
+
+bentuk robot pun dapat dikontrol dengan tepat dengan mengkalibrasi bagian dasar dengan hati-hati.
+kemudian laser akan bertindak sebagai remote control yang dapat mengatur robot misalnya memanaskan bagian tertentu dari robot.
+dengan mengarahkan laser ke bagian yang berbeda dari robot peneliti juga dapat mengatur arah pergerakan.
+sementara itu dengan menyesuaikan frekuensi pemindaian laser kecepatan gerakan robot juga dapat dimodifikasi.
+tak perlu sumber daya atau mesin. selanjutnya lapisan kaca tipis akan memastikan komponen kembali ke bentuk aslinya saat dingin.
+baca juga robot perseverance berhasil kumpulkan batuan mars tapi sampel lenyap
+ karena robot sangat kecil maka laju pendinginannya sangat cepat. dan mengurangi ukuran robot ini juga akan memungkinkan mereka berjalan lebih cepat lagi papar john rogers ilmuwan material dari northwestern university.
+para peneliti mengatakan ada banyak potensi dalam proses mendatang baru mereka. seperti misalnya mereka bisa membuat robot berputar dan melompat menggunakan teknik yang sama.
+selama robot berada dalam garis pandang laser robot dapat dimanipulasi dari jarak jauh.
+ robotika adalah bidang penelitian yang menarik dan pengembangan robot skala mikro adalah topik yang menyenangkan untuk eksplorasi akademis kata rogers.
+ anda mungkin membayangkan robot mikro sebagai agen untuk memperbaiki atau merakit struktur atau mesin kecil di industri atau sebagai asisten bedah untuk membersihkan arteri yang tersumbat untuk menghentikan pendarahan internal atau untuk menghilangkan tumor kanker. semuanya dalam prosedur invasif minimal tambahnya.
+penelitian robot kepiting terkecil di dunia ini telah dipublikasikan di jurnal science robotics.
+baca juga sejarah robot ternyata bermula dari naskah sandiwara

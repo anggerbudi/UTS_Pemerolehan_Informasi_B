@@ -1,6 +1,6 @@
 """
 Kelas       : Pemerolehan Informasi B
-Tugas       : Program Tugas UTS
+Tugas       : VectorSpaceModel Tugas UTS
 Kelompok    : Martinus Angger Budi Wicaksono    (215314163)
               Antonius Yoga Chris Raharja       (215314175)
               Antonius Miquel Aureliano         (215314181)

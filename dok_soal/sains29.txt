@@ -1,0 +1,12 @@
+
+kompas.com - robot adalah bagian dari perkembangan teknologi yang semakin maju. robot terus dikembangkan untuk membantu berbagai pekerjaan manusia dari pekerjaan sederhana hingga operasi tubuh manusia.
+oleh karena itu robot adalah bagian dari artificial intelligence ai yang melibatkan teknik dan psikologi. bagaimana sejarah perkembangan robot?
+kata robot pertama kali muncul pada tahun dalam sebuah sandiwara berjudul rossum s universal robot yang diterjemahkan menjadi robot dunia milik rossum. penulis sandiwara ini bernama karel capec.
+sandiwara ini bercerita tentang rossum yang merancang bala tentara cerdik yang akhirnya menguasai manusia. kata robot sendiri diambil dari kata robota yang artinya kerja cepat atau pekerja. cerita serupa juga dibuat dalam novel yang ditulis oleh isaac asimov pada tahun . novel ini menggunakan kata robotika dalam ceritanya.
+robot betulan diproduksi pertama kali oleh jepang pada tahun . nama robot tersebut adalah gakutensoku yang berarti belajar dari hukum alam. robot tersebut mampu membuka dan menutup mata dan tersenyum.
+konsep robot yang berfungsi langsung untuk memudahkan manusia terjadi pada tahun dan . pada tahun alan turning memperkenalkan konsep mesin komputer untuk memecahkah kode perang.
+sedangkan pada tahun robot diciptakan oleh william pollard dan harold roselund untuk mengecat mobil. mobil yang ingin dicat tidak lagi membutuhkan manusia namun menggunakan lengan robot yang diprogram untuk mengecat mobil dengan spray.
+baca juga ini dia robot hidup pertama yang diklaim bisa bereproduksi
+dilansir dari computer science stanford university terdapat beberapa definisi berbeda untuk menjelaskan robot. berikut beberapa definisi tersebut.
+secara umum robot adalah alat yang dapat meniru perilaku manusia untuk menggantikan atau membantu pekerjaan manusia.
+dalam tulisan fiksinya asimov mengajukan hukum robotika yang ternyata masih relevan dan dipakai hingga sekarang. terdapat tiga poin hukum robotika 
